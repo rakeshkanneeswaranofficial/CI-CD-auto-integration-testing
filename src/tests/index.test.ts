@@ -9,6 +9,6 @@ describe("POST /sum", () => {
             b: 2
         })
         expect(status).toBe(200);
-        expect(body).toEqual({ answer: 4, id: expect.any(Number) });
+        expect(body).toEqual({ answer: 3, id: expect.any(Number) });
     });
 })
